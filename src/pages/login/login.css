@@ -1,0 +1,10 @@
+.logindetail{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logincontainer{
+    display: flex;
+    flex-direction: row;
+}
