@@ -1,0 +1,77 @@
+.contactsection {
+  background-color: #0a3731;
+  color: white;
+  padding-top: 100px;
+  padding-left: 160px;
+  height: 799px;
+  width: 100%;
+}
+
+.contacttext {
+  color: white;
+}
+
+.contacttext h3 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.contacttext p {
+  margin-bottom: 70px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+  gap: 10px;
+}
+
+.inputcontainer {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 20px;
+  outline: none;
+  width: 494px;
+  height: 109px;
+  font-style: italic;
+}
+.user-name {
+  margin-right: 50px;
+}
+.form textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 20px;
+  outline: none;
+  width: 494px;
+  height: 109px;
+  font-style: italic;
+}
+
+.form button {
+  width: 123px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  font-weight: 600;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.form button :hover {
+  background-color: #74ad1a;
+}
