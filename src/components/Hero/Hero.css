@@ -1,101 +1,98 @@
-.hero{
-    width: 100%;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/background1.png');
-   align-items: center;
-    display: flex;
-   
-    
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../assets/background1.png");
+  align-items: center;
+  display: flex;
 }
 
-.hero-text{
-    text-align:start;
-    max-width: 894px;
-    padding: 20px 0;
- margin-top: 150px;
+.hero-text {
+  text-align: start;
+  max-width: 894px;
+  padding: 20px 0;
+  margin-top: 150px;
 }
 
-.hero-text h1{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 65px;
-    max-width: 633px;
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65px;
+  max-width: 633px;
 }
 
-.hero-text p{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21.94px;
-    max-width: 633px;
-    margin: 10px;
+.hero-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  max-width: 633px;
+  margin: 10px;
 }
 
 .bookingSearch {
-    width: 100%;
-    background-color: #D0CFCE;
-    display: flex;
-    height: 92px;
-    border-radius: 10px;
-    padding: 24px 30px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+  width: 100%;
+  background-color: #d0cfce;
+  display: flex;
+  height: 92px;
+  border-radius: 10px;
+  padding: 24px 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.bookingSearchItem{
-    color:  #1E1E1E80;
-    margin-right: 50px;
-    justify-content: space-between;
-    align-items: start;
-
+.bookingSearchItem {
+  color: #1e1e1e80;
+  margin-right: 50px;
+  justify-content: space-between;
+  align-items: start;
 }
 
-.bookingSearchResult{
-    align-self: start;
-    display:inline-flex
+.bookingSearchResult {
+  align-self: start;
+  display: inline-flex;
 }
-.searchInput{
-    border: none;
-    background: none;
-    color: #0A3731;
-    outline: none;
+.searchInput {
+  border: none;
+  background: none;
+  color: #0a3731;
+  outline: none;
 }
-.bookingSearchInput{
-    color: #0A3731;
-    font-weight: 400px;
-    font-size: 14px;
-   
+.bookingSearchInput {
+  color: #0a3731;
+  font-weight: 400px;
+  font-size: 14px;
 }
-.searchIcon{
-    color: #0A3731;
-    height: 11.62px;
+.searchIcon {
+  color: #0a3731;
+  height: 11.62px;
 }
-.searchbtn{
-    background-color:#0A3731;
-    color: #fff;
-    width: 123px;
-    height:52px;
-    border-radius: 5px;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
+.searchbtn {
+  background-color: #0a3731;
+  color: #fff;
+  width: 123px;
+  height: 52px;
+  border-radius: 5px;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
 }
-.search img{
-    width: 16px;
-    margin-right: 10px;
+.search img {
+  width: 16px;
+  margin-right: 10px;
 }
 
-.date{
-   border: none;
-    top: 0;
-    background: none;
+.date {
+  border: none;
+  top: 0;
+  background: none;
 }

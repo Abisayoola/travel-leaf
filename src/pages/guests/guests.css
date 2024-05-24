@@ -1,0 +1,63 @@
+.guestcontainer {
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding-top: 220px;
+  padding-left: 90px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../assets/guestbg.png");
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.guestcontainer h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 400px;
+  line-height: 50px;
+}
+
+.listingsbtn {
+  margin-top: 25px;
+  color: #fff;
+  background-color: #74ad1a;
+  padding: 16px 24px;
+  border-radius: 3px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+
+.sectioncontainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+  justify-content: space-around;
+  height: 518px;
+}
+
+.sectioncontainer img {
+  height: 388px;
+  width: 581px;
+}
+
+.imgcontainer {
+  width: 685px;
+  display: flex;
+  flex-direction: column;
+  height: 488px;
+}
+.topimg {
+  margin-right: 132px;
+  margin-bottom: 20px;
+}
+
+.bottomimg {
+  margin-left: 132px;
+}

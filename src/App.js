@@ -6,6 +6,7 @@ import About from "./pages/about/about";
 import Listproperty from "./pages/listproperty/listproperty";
 import Booking from "./pages/booking/booking";
 import Login from "./pages/login/login";
+import Guests from "./pages/guests/guests";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/listings" element={<Listproperty />} />
         <Route path="/listings:id" element={<Booking />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/guests" element={<Guests />} />
       </Routes>
     </BrowserRouter>
   );
