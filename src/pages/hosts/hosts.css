@@ -1,0 +1,36 @@
+.guestcontainer {
+  width: 100%;
+
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding-top: 220px;
+  padding-left: 90px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../assets/host1.png");
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.guestcontainer h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 633px;
+  font-size: 48px;
+  line-height: 65px;
+}
+.guestcontainer p {
+  line-height: 21.94px;
+  width: 633px;
+}
+
+.listingsbtn {
+  margin-top: 25px;
+  color: #fff;
+  background-color: #74ad1a;
+  padding: 16px 24px;
+  border-radius: 3px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}

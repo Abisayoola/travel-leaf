@@ -19,7 +19,9 @@ const Featured = () => {
             Selection of Available Houses for Your Next Stay.
           </p>
         </div>
-        <button className="featuredButton">View All</button>
+        <a href="/viewhouses">
+          <button className="featuredButton">View All</button>
+        </a>
       </div>
       <div className="featured">
         <div className="featuredItem">
@@ -84,7 +86,9 @@ const Featured = () => {
             Start Your Journey Now!
           </p>
         </div>
-        <button className="featuredButton">View All</button>
+        <a href="/viewcars">
+          <button className="featuredButton">View All</button>
+        </a>
       </div>
       <div className="featured">
         <div className="featuredItem">

@@ -17,7 +17,9 @@ const Info = () => {
             way to connect and explore with a green perspective.
           </p>
           <div>
-            <button className="coloredbutton">Join us</button>
+            <a href="/signup">
+              <button className="coloredbutton">Join us</button>
+            </a>
             <a href="/guests">
               <button className="transparentbutton">Learn more</button>
             </a>
@@ -34,8 +36,14 @@ const Info = () => {
             products, and enjoy safe spaces for your journey.
           </p>
           <div>
-            <button className="coloredbutton">Join us</button>
-            <button className="transparentbutton">Learn more</button>
+            <a href="/signup">
+              <button className="coloredbutton">Join us</button>
+            </a>
+            <a href="/viewhouses">
+              <button className="transparentbutton">
+                Discover experiences
+              </button>
+            </a>
           </div>
         </div>{" "}
         <img alt="" src={rectangle} />
