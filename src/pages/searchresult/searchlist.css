@@ -1,0 +1,19 @@
+.searchcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 25px 80px;
+  justify-content: space-between;
+}
+
+.resultcontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 41px 80px;
+  gap: 48px;
+}
+
+.searchresult {
+  width: 55%;
+}

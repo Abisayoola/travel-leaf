@@ -8,6 +8,7 @@
     url("../../assets/background1.png");
   align-items: center;
   display: flex;
+  top: 0;
 }
 
 .hero-text {

@@ -9,6 +9,8 @@ import Login from "./pages/login/login";
 import Guests from "./pages/guests/guests";
 import Signup from "./pages/signup/signup";
 import Hosts from "./pages/hosts/hosts";
+import Houses from "./pages/viewhouses/viewhouses";
+import Result from "./pages/searchresult/searchlist";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/guests" element={<Guests />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/hostpage" element={<Hosts />} />
+        <Route path="/viewhouses" element={<Houses />} />
+        <Route path="/searchresult" element={<Result />} />
       </Routes>
     </BrowserRouter>
   );

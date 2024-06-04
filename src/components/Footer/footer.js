@@ -1,12 +1,21 @@
 import React from "react";
 import "./footer.css";
+import discord from "../../assets/DiscordLogo.png";
+import facebook from "../../assets/FacebookLogo.png";
+import twitter from "../../assets/TwitterLogo.png";
+import instagram from "../../assets/InstagramLogo.png";
 
 function footer() {
   return (
     <div className="footersection">
       <div className="footer">
         <div className="footerlinks">
-          <div className="socials">socials</div>
+          <div className="socials">
+            <img alt="" src={discord} />
+            <img alt="" src={facebook} />
+            <img alt="" src={twitter} />
+            <img alt="" src={instagram} />
+          </div>
         </div>
         <div className="footerlinks">
           <h3>Company</h3>
