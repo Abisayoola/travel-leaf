@@ -17,3 +17,5 @@
 .searchresult {
   width: 55%;
 }
+@media (min-width: 780px) {
+}

@@ -12,64 +12,71 @@ const Hero = () => {
   const [startDate, setStartDate] = useState(new Date());
 
   return (
-    <div className="hero container">
-      <div className="hero-text">
-        <p>Welcome to Tavel Leaf</p>
-        <h1>Your Gateway to Cannabis-Friendly Travels!</h1>
-        <p>
-          Discover, Book, and Experience the Best Cannabis-Friendly
-          Accommodations, Vehicles, Yachts, and Unique Adventures.
-        </p>
-        <div className="bookingSearch">
-          <div className="bookingSearchItem">
-            Location
-            <div classname="bookingSearchResult">
-              <FaLocationDot className="searchIcon" />
-              <input
-                type="text"
-                placeholder="Florida, USA"
-                className="searchInput"
-              />
-            </div>
+    <div className="hero-con">
+      <div className="hero">
+        <div className="hero-text">
+          <p>Welcome to Tavel Leaf</p>
+          <h1>Your Gateway to Cannabis-Friendly Travels!</h1>
+          <p>
+            Discover, Book, and Experience the Best Cannabis-Friendly
+            Accommodations, Vehicles, Yachts, and Unique Adventures.
+          </p>
+          <div className="bookingSearch">
+            <section>
+              <div className="bookingSearchItem">
+                Location
+                <div classname="bookingSearchResult">
+                  <FaLocationDot className="searchIcon" />
+                  <input
+                    type="text"
+                    placeholder="Florida, USA"
+                    className="searchInput"
+                  />
+                </div>
+              </div>
+              <div className="bookingSearchItem">
+                Arrival Date
+                <div classname="bookingSearchResult">
+                  <FaCalendarDays className="searchIcon" />
+                  <DatePicker
+                    selected={startDate}
+                    onChange={(date) => setStartDate(date)}
+                    className="date"
+                  />
+                </div>
+              </div>
+            </section>
+            <section>
+              <div className="bookingSearchItem">
+                Departure Date
+                <div classname="bookingSearchResult">
+                  <FaCalendarDays className="searchIcon" />
+                  <DatePicker
+                    selected={startDate}
+                    onChange={(date) => setStartDate(date)}
+                    className="date"
+                  />
+                </div>
+              </div>
+              <div className="bookingSearchItem">
+                Property
+                <div classname="bookingSearchResult">
+                  <FaHouse className="searchIcon" />
+                  <span className="bookingSearchInput"> House</span>
+                </div>
+              </div>
+            </section>
+            <a href="/searchresult">
+              {" "}
+              <button className="searchbtn">
+                <img src={search_normal} alt="" />
+                Search
+              </button>
+            </a>
           </div>
-          <div className="bookingSearchItem">
-            Arrival Date
-            <div classname="bookingSearchResult">
-              <FaCalendarDays className="searchIcon" />
-              <DatePicker
-                selected={startDate}
-                onChange={(date) => setStartDate(date)}
-                className="date"
-              />
-            </div>
-          </div>
-          <div className="bookingSearchItem">
-            Departure Date
-            <div classname="bookingSearchResult">
-              <FaCalendarDays className="searchIcon" />
-              <DatePicker
-                selected={startDate}
-                onChange={(date) => setStartDate(date)}
-                className="date"
-              />
-            </div>
-          </div>
-          <div className="bookingSearchItem">
-            Property
-            <div classname="bookingSearchResult">
-              <FaHouse className="searchIcon" />
-              <span className="bookingSearchInput"> House</span>
-            </div>
-          </div>
-          <a href="/searchresult">
-            {" "}
-            <button className="searchbtn">
-              <img src={search_normal} alt="" />
-              Search
-            </button>
-          </a>
         </div>
       </div>
+      <br />
     </div>
   );
 };

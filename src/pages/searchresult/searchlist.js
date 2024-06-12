@@ -2,12 +2,7 @@ import React, { useState } from "react";
 import Navcol from "../../components/Navbar/NavCol";
 import Footer from "../../components/Footer/footer";
 import search_normal from "../../assets/search_normal.png";
-import {
-  FaLocationDot,
-  FaCalendarDays,
-  FaPerson,
-  FaUser,
-} from "react-icons/fa6";
+import { FaLocationDot, FaCalendarDays, FaUser } from "react-icons/fa6";
 import "react-datepicker/dist/react-datepicker.css";
 import SearchItem from "../../components/searchItem/searchItem";
 import "./searchlist.css";

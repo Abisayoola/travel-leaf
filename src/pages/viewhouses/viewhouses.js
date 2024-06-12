@@ -1,12 +1,13 @@
-import React from "react";
 import Navcol from "../../components/Navbar/NavCol";
+import House from "../../components/House/House";
 
-function viewhouses() {
+function Viewhouses() {
   return (
     <div>
       <Navcol />
+      <House />
     </div>
   );
 }
 
-export default viewhouses;
+export default Viewhouses;

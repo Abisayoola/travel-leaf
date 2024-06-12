@@ -1,9 +1,15 @@
-nav {
+.nav-con {
   width: 100%;
-  height: 102px;
-  color: #fff;
   position: fixed;
-  padding: 26px 90px 26px 90px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  width: 90%;
+  max-width: 1200px;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,22 +20,24 @@ nav {
   width: 40px;
   height: 40px;
 }
-
+.nav-menu {
+  display: none;
+  gap: 40px;
+}
 .nav-menu a {
-  display: inline-block;
+  display: flex;
   list-style: none;
   font-weight: 400;
   font-size: 16px;
-  gap: 88px;
   line-height: 20px;
   align-items: center;
-  padding: 150px 40px;
 }
 .nav-right {
-  display: inline-block;
   font-weight: 700;
   gap: 20px;
   justify-content: space-between;
+  align-items: center;
+  display: none;
 }
 
 .btn {
@@ -62,4 +70,12 @@ nav {
   color: #0a3731;
   border: none;
   outline: none;
+}
+@media (min-width: 780px) {
+  .nav-right {
+    display: flex;
+  }
+  .nav-menu {
+    display: flex;
+  }
 }

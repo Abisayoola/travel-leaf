@@ -1,8 +1,9 @@
 .featured {
-  width: 1240px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  flex-direction: column;
 }
 
 .featuredItem {
@@ -33,12 +34,12 @@
 
 .fcText {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .featuredContainer {
-  width: 719px;
+  width: 100%;
   gap: 25px;
 }
 
@@ -167,4 +168,12 @@
   outline: none;
   border: none;
   font-weight: 600;
+}
+@media (min-width: 780px) {
+  .featured {
+    flex-direction: row;
+  }
+  .fcText {
+    flex-direction: row;
+  }
 }

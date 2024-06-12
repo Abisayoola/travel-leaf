@@ -1,0 +1,156 @@
+.list-property-con {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.list-property {
+  width: 90%;
+  max-width: 1000px;
+}
+.list-property section {
+  margin-top: 100px;
+  width: 50%;
+}
+.listing-dropdown {
+  padding: 5px 0;
+  border: 1px solid lightgray;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding: 10px;
+  color: rgb(168, 166, 166);
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.list-property h1 {
+  font-size: 25px;
+}
+.list-property p {
+  color: gray;
+  font-size: 16px;
+}
+.list-property-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid lightgray;
+  height: 80px;
+}
+.list-property-footer div {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-property p {
+  font-size: 12px;
+  font-weight: 580;
+}
+.list-property ul {
+  color: gray;
+  margin-top: 10px;
+  font-size: 20px;
+  height: 0;
+  overflow-y: hidden;
+}
+.list-property li {
+  margin-top: 15px;
+  padding: 5px;
+  border-bottom: 1px solid lightgray;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 580;
+}
+.list-property li:hover {
+  color: black;
+}
+
+/*Housing*/
+.house-listing-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.house-listing-input-breakpoint {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.house-listing-input-breakpoint div {
+  width: 50%;
+}
+.house-listing-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.house-listing-input span {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: 35px;
+  width: 98%;
+}
+.house-listing-input input {
+  width: 97%;
+  height: 100%;
+  border: none;
+}
+.house-listing-input input:focus {
+  outline: none;
+}
+.house-listing-input-breakpoint span {
+  width: 95%;
+}
+.house-listing-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.house-listing-description textarea {
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+.house-listing-description textarea:focus {
+  outline: none;
+}
+.list-property center {
+  background-color: lightgray;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  flex-direction: column;
+}
+.list-property center span {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  align-items: center;
+  justify-content: center;
+}
+.list-property center small {
+  font-size: 10px;
+}
+.house-listing-img {
+  display: flex;
+  gap: 20px;
+}
+.list-property center:hover {
+  background-color: rgb(235, 231, 231);
+}

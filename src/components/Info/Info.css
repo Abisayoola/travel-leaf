@@ -1,17 +1,18 @@
 .aboutus {
   display: flex;
-  flex-direction: row;
-  height: 615px;
+  flex-direction: column;
+  max-width: 100%;
+  width: 100%;
+  justify-content: center;
   justify-content: space-between;
 }
 .aboutus img {
-  height: 455px;
-  width: 535px;
+  width: 90vw;
 }
 
 .infotext {
-  margin-left: 70px;
-  width: 539px;
+  width: 100%;
+  max-width: 1200px;
   gap: 22px;
   padding-top: 130px;
   padding-bottom: 130px;
@@ -36,7 +37,7 @@
 
 .infotextdis {
   margin-right: 70px;
-  width: 539px;
+  width: 90%;
   gap: 22px;
   padding-top: 130px;
   padding-bottom: 130px;
@@ -92,4 +93,18 @@
   font-size: 15px;
   font-weight: 600;
   line-height: 18.29px;
+}
+@media (min-width: 780px) {
+  .aboutus {
+    flex-direction: row;
+  }
+  .aboutus img {
+    width: 45%;
+  }
+  .infotext {
+    width: 45%;
+  }
+  .infotextdis {
+    width: 45%;
+  }
 }
